@@ -6,5 +6,6 @@ cp "$parent_path/.screenrc" ~/
 git clone https://github.com/amix/vimrc.git ~/.vim_runtime
 sh ~/.vim_runtime/install_awesome_vimrc.sh
 cat ~/baseband/.bashrc >> ~/.bashrc
+cat ~/baseband/.bash_aliases >> ~/.bash_aliases
 . ~/.bashrc
-
+. ~/.bash_aliases
